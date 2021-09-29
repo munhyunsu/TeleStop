@@ -1,3 +1,7 @@
 # TeleStop
 
-## Shared Stop watch application
+## Shared Timer application
+
+## TODO list
+
+- 1.0: On local timer application.

@@ -21,11 +21,10 @@
         android:id="@+id/extendedFloatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
-        android:contentDescription="@string/btn_add_timer"
-        android:text="@string/btn_add_timer"
+        android:contentDescription="@string/btn_mng_timer"
+        android:text="@string/btn_mng_timer"
         app:icon="@android:drawable/ic_menu_add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

@@ -17,17 +17,17 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:layout="@layout/fragment_main" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/extendedFloatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="16dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
-        android:clickable="true"
         android:contentDescription="@string/btn_add_timer"
-        android:onClick="checkButton"
+        android:text="@string/btn_add_timer"
+        app:icon="@android:drawable/ic_menu_add"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:rippleColor="@color/black"
-        app:srcCompat="@android:drawable/ic_lock_idle_alarm" />
+        app:layout_constraintEnd_toEndOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

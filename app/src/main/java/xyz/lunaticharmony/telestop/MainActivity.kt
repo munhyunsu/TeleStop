@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity() {
 
     fun checkButton(view: View) {
 //        R.id.extendedFloatingActionButton.extend()
-//        val efab: ExtendedFloatingActionButton = findViewById(R.id.extendedFloatingActionButton)
-//        efab.extend()
-        Toast.makeText(view.context, R.string.msg_float, Toast.LENGTH_SHORT).show();
+        val efab: ExtendedFloatingActionButton = findViewById(R.id.extendedFloatingActionButton)
+        efab.extend()
+//        Toast.makeText(view.context, R.string.msg_float, Toast.LENGTH_SHORT).show();
     }
 }
